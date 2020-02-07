@@ -1,0 +1,91 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #ffffff;
+}
+
+.header-section {
+    -fx-padding: 10px;
+    -fx-font-size: 20px;
+    -fx-background-color: teal;
+}
+
+.header-section Label {
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10px;
+}
+
+#account {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+
+.sidebar-section {
+    -fx-min-width: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-width: 200px;
+    -fx-border-width: 1;
+    -fx-border-color: transparent #E8E8E8 transparent transparent;
+}
+
+.sidebar-section Label {
+    -fx-font-size: 18px;
+    -fx-padding: 10 15 10 15;
+    -fx-border-width: 1;
+    -fx-border-color: transparent transparent #E8E8E8 transparent;
+    -fx-min-width: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-width: 200px;
+}
+
+.content-section {
+    -fx-padding: 10 20 10 20;
+    -fx-wrap-text: true;
+
+}
+
+#content-header {
+    -fx-font-size: 18px;
+    -fx-padding: 0 0 10 0;
+    -fx-font-weight: 700;
+}
+
+#content {
+    -fx-wrap-text: true;
+    -fx-font-size: 16px;
+}
+
+#footer-section {
+    -fx-alignment: center;
+    -fx-padding: 10 10 10 10;
+    -fx-border-width: 1;
+    -fx-border-color: #E8E8E8 transparent transparent transparent;
+}
+
+/*<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Sign In </h2>
+    <h2 class="inactive underlineHover">Sign Up </h2>
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>*/
